@@ -1,1 +1,32 @@
-
+* {
+  box-sizing: border-box;
+}
+@media (min-width: 992px) {
+  h1 {
+    margin-bottom: 15px;
+  }
+  p {
+    background-color: #ccfff1;
+    font-family: Helvetica;
+    width: 33.33%;
+    float: left;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    margin-bottom: 15px;
+  }
+  p {
+    background-color: #ccfff1;
+    font-family: Helvetica;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    margin-bottom: 15px;
+  }
+  p {
+    background-color: #ccfff1;
+    font-family: Helvetica;
+  }
+}
